@@ -1,24 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { useState } from "react";
+import Header from "./components/header/Header";
+import Footer from "./components/footer/Footer";
+import Carousel from "./components/home/Carousel";
+import { GrClose } from "react-icons/gr";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header />
+      <section>
+        <div className="background">
+          {/* <div className="cont-main h-[67.5rem]"></div> */}
+          <div className="flex items-center justify-center bg-center bg-no-repeat bg-cover lg:min-h-screen bg-bgMain lg:bg-fixed min-h-[78vh]">
+            {/*             <h1 className="text-6xl font-bold text-white font-finger">
+              NADA MENOS
+            </h1> */}
+          </div>
+        </div>
+        <Carousel autoSlide={true} />
+      </section>
+      <Footer />
+    </>
   );
 }
 

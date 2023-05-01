@@ -1,0 +1,8 @@
+.footer{
+    background-color: teal;
+    height: 50vh;
+    width: 100%;
+    background: transparent;
+    color:aliceblue;
+    z-index: 1;
+}

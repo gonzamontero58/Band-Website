@@ -1,0 +1,13 @@
+.imgsWrapper { animation: fadeIn 2s; }
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+/*   .background-music{
+    background-image: url(../../../public/imgs/NM_4.JPG);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 100rem auto ;
+    background-attachment: fixed; 
+  } */

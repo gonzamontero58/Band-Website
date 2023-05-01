@@ -1,17 +1,88 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./App";
+import Bio from "./paths/bio/Bio";
+import Music from "./paths/music/Music";
+import AsiNo from "./paths/music/pages/AsiNo";
+import BT from "./paths/music/pages/BT";
+import Header from "./components/header/Header";
+import Footer from "./components/footer/Footer";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <App />,
+    /*     errorElement: (
+      <>
+        <Header />
+        <ErrorPage />
+        <Footer />
+      </>
+    ), */
+  },
+  {
+    path: "bio",
+    element: (
+      <>
+        <Header />
+        <Bio />
+        <Footer />
+      </>
+    ),
+  },
+  {
+    path: "music",
+    element: (
+      <>
+        <Header />
+        <Music />
+        <Footer />
+      </>
+    ),
+  },
+  {
+    path: "music/info-asi-no",
+    element: (
+      <>
+        <Header />
+        <AsiNo />
+        <Footer />
+      </>
+    ),
+  },
+  {
+    path: "music/info-la-banda-tributo",
+    element: (
+      <>
+        <Header />
+        <BT />
+        <Footer />
+      </>
+    ),
+  },
+  /*   {
+    path: "/bio",
+    element: <Bio />
+  },
+  {
+    path: "/contacto",
+    element: (
+      <>
+        <Header />
+        <Contacto />
+        <Footer />
+      </>
+    ),
+  },
+
+   */
+]);
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
