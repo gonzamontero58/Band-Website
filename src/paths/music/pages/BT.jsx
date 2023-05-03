@@ -4,95 +4,18 @@ import YoutubeEmbed from "../../../components/music/YouTubeEmbed";
 import { Link } from "react-router-dom";
 function BT() {
   return (
-    /*     <>
-      <div className="bg-gradient-to-br from-neutral-900 to-teal-900">
-        <div className="flex justify-center pt-8 pb-16 text-3xl text-teal-600 font-rock underline-offset-8">
-          <h1>LA BANDA TRIBUTO</h1>
-        </div>
-        <Link to="/music">
-          <div className="relative text-teal-300 return " size={30}>
-            <div className="absolute p-2 rounded-full cursor-pointer right-5 bottom-10 hover:bg-black/20 hover:underline underline-offset-4">
-              <TiArrowBackOutline size={30} />
-              <h1 className="font-finger">BACK</h1>
-            </div>
-          </div>
-        </Link>
-        <section className="flex vid-info">
-          <div className="w-2/4 h-auto video-wrapper ">
-            <YoutubeEmbed embedId="bZsNznYuucM" />
-          </div>
-          <div className="flex justify-center w-2/4 h-auto info-wrapper flex-column">
-            <p className="text-teal-300 font-finger text-left pt-[7%]">
-              Gonzalo Montero: Voz y Guitarra<br></br>
-              Giancarlo Fiordelmondo: Guitarra<br></br>
-              Gonzalo Ramos: Bajo<br></br>
-              Ignacio Montero: Batería<br></br>
-              Martín López: Teclado<br></br>
-              <br></br>
-              Letra por Gonzalo Montero<br></br>
-              Música por Gonzalo Montero, Nada Menos<br></br>
-              <br></br>
-              Grabación y Producción por Martín López en Reef Music<br></br>
-              Masterizado por Nicotina<br></br>
-              <br></br>
-              Foto: Nicolás Camarotta<br></br>
-              Diseño: Gonzalo Ramos<br></br>
-            </p>
-          </div>
-        </section>
-        <hr className="my-3 border-teal-400 border-solid "></hr>
-        <section className="letra">
-          <h2 className="flex justify-center text-2xl text-orange-100 font-rock">
-            Letra:
-          </h2>
-          <div className="flex flex-row pt-8 pb-10 text-center txtWrapper justify-evenly">
-            <div>
-              <p className="text-teal-400 font-finger">
-                Todo está listo, la Banda Tributo va a comenzar a tocar.
-                <br></br>
-                Originalidad creo que les falta pero se gozan igual.<br></br>
-                No me fascinan. Parece un show de falsa adrenalina.<br></br>
-                Aunque tengo que confesar que involuntariamente empiezo a
-                bailar...<br></br>
-                <br></br>
-                Al ritmo de sus covers,<br></br>
-                Pidiendo a gritos por otra canción.<br></br>
-                Tienen miles de seguidores,<br></br>Y es de eso que hoy en día
-                depende la aprobación.<br></br>
-              </p>
-            </div>
-
-            <div>
-              <p className="text-teal-400 font-finger">
-                Los van a ver pasar inadvertidos por la gala de la eternidad.
-                <br></br>
-                ¿A quién van a engañar? No están acá por diversión sino por
-                vanidad.<br></br>
-                Lazos endebles. Falsa lealtad. ¿Ves lo que lográs?<br></br>
-                ¿No ves lo que lográs?<br></br>
-                <br></br>
-                Saqué todos sus covers,<br></br>
-                Creo que lo puedo hacer mucho mejor.<br></br>
-                Estás entre sus seguidores,<br></br>Y es que esa devoción reduce
-                al mínimo mis chances con vos.<br></br>
-              </p>
-            </div>
-          </div>
-        </section>
-      </div>
-    </> */
     <>
-      <div className="bg-gradient-to-br from-neutral-900 to-teal-900">
-        <div className="flex justify-center py-8 text-3xl text-teal-600 font-rock lg:pb-16 lg:pt-8 underline-offset-8">
+      <div className="bg-gradient-to-br from-[#404f4a] to-[#829b93]">
+        <div className="flex justify-center py-8 text-4xl font-bold text-orange-50 md:text-5xl font-bungee lg:text-6xl lg:pb-16 lg:pt-8 underline-offset-8">
           <h1>LA BANDA TRIBUTO</h1>
         </div>
 
         <div className="relative hidden return lg:flex" size={30}>
-          <div className="absolute text-teal-300 rounded-full cursor-pointer right-5 bottom-10 lg:p-2 hover:bg-black/20 hover:underline underline-offset-4">
+          <div className="absolute rounded-full cursor-pointer text-orange-50 right-5 bottom-10 lg:p-2 hover:bg-black/20 hover:underline underline-offset-4">
             <Link to="/music">
               <TiArrowBackOutline size={30} />
             </Link>
-            <h1 className="text-teal-300 font-finger ">BACK</h1>
+            <h1 className="text-orange-50 font-finger ">BACK</h1>
           </div>
         </div>
 
@@ -101,7 +24,7 @@ function BT() {
             <YoutubeEmbed embedId="bZsNznYuucM" />
           </div>
           <div className="flex justify-center w-full h-auto pt-8 info-wrapper lg:w-2/4 flex-column lg:pt-0">
-            <p className="text-center text-teal-300 font-finger lg:text-left ">
+            <p className="font-bold text-center text-orange-50 font-poppins lg:text-left md:text-lg">
               Gonzalo Montero: Voz y Guitarra<br></br>
               Giancarlo Fiordelmondo: Guitarra<br></br>
               Gonzalo Ramos: Bajo<br></br>
@@ -120,14 +43,16 @@ function BT() {
           </div>
         </section>
 
-        <hr className="my-3 border-teal-400 border-solid "></hr>
+        <hr className="my-3 border-solid border-orange-50 "></hr>
         <section className="letra">
-          <div className="flex items-center justify-center title-container">
-            <h2 className="text-2xl text-orange-100 font-rock">Letra:</h2>
+          <div className="flex items-center justify-center pt-4 title-container">
+            <h2 className="text-3xl font-bold text-orange-50 md:text-5xl lg:text-5xl font-bungee">
+              Letra:
+            </h2>
           </div>
-          <div className="flex flex-col py-8 text-sm text-center txtWrapper lg:flex-row justify-evenly lg:text-base ">
+          <div className="flex flex-col py-8 text-sm text-center txtWrapper lg:flex-row justify-evenly lg:text-base md:text-lg">
             <div>
-              <p className="text-teal-400 font-finger">
+              <p className="font-bold text-orange-50 font-poppins">
                 Todo está listo, la Banda Tributo va a comenzar a tocar.
                 <br></br>
                 Originalidad creo que les falta pero se gozan igual.<br></br>
@@ -143,7 +68,7 @@ function BT() {
             </div>
 
             <div>
-              <p className="text-teal-400 font-finger">
+              <p className="font-bold text-white font-poppins">
                 Los van a ver pasar inadvertidos por la gala de la eternidad.
                 <br></br>
                 ¿A quién van a engañar? No están acá por diversión sino por
@@ -164,7 +89,7 @@ function BT() {
           className="flex items-center justify-center pb-6 return lg:hidden "
           size={30}
         >
-          <div className="text-teal-300 rounded-full cursor-pointer lg:p-2 hover:bg-black/20 hover:underline underline-offset-4">
+          <div className="rounded-full cursor-pointer text-orange-50 lg:p-2 hover:bg-black/20 hover:underline underline-offset-4">
             <Link to="/music">
               <TiArrowBackOutline size={30} />
             </Link>

@@ -4,6 +4,7 @@ import "./index.css";
 import App from "./App";
 import Bio from "./paths/bio/Bio";
 import Music from "./paths/music/Music";
+import Contact from "./paths/contact/Contact";
 import AsiNo from "./paths/music/pages/AsiNo";
 import BT from "./paths/music/pages/BT";
 import Header from "./components/header/Header";
@@ -62,22 +63,16 @@ const router = createBrowserRouter([
       </>
     ),
   },
-  /*   {
-    path: "/bio",
-    element: <Bio />
-  },
   {
     path: "/contacto",
     element: (
       <>
         <Header />
-        <Contacto />
+        <Contact />
         <Footer />
       </>
     ),
   },
-
-   */
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));

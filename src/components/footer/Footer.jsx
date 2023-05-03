@@ -7,7 +7,7 @@ function Footer() {
     <div className="w-full h-20 text-white bg-transparent">
       <hr></hr>
       <SmFt />
-      <div className="flex justify-center text-sm lg:text-base lg:py-10 ">
+      <div className="flex justify-center text-sm md:text-base lg:py-10 font-roboto ">
         <p className="">© 2023 Nada Menos </p>
         <span className="px-1"> | </span>
         <a

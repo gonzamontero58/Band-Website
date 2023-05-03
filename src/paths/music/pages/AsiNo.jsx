@@ -6,7 +6,7 @@ function AsiNo() {
   return (
     <>
       <div className="bg-gradient-to-br from-neutral-900 to-pink-900">
-        <div className="flex justify-center py-8 text-3xl text-pink-800 font-rock lg:pb-16 lg:pt-8 underline-offset-8">
+        <div className="flex justify-center py-8 text-4xl font-bold text-pink-200 md:text-5xl lg:text-6xl font-bungee lg:pb-16 lg:pt-8 underline-offset-8">
           <h1>ASI NO</h1>
         </div>
         <Link to="/music">
@@ -22,7 +22,7 @@ function AsiNo() {
             <YoutubeEmbed embedId="vKXWZ9S1W9o" />
           </div>
           <div className="flex justify-center w-full h-auto pt-8 info-wrapper lg:w-2/4 flex-column lg:pt-0">
-            <p className="text-center text-pink-300 font-finger lg:text-left ">
+            <p className="font-bold text-center text-pink-300 font-poppins lg:text-left md:text-lg ">
               Gonzalo Montero: Voz y Guitarra<br></br>
               Giancarlo Fiordelmondo: Guitarra<br></br>
               Gonzalo Ramos: Bajo<br></br>
@@ -41,12 +41,14 @@ function AsiNo() {
 
         <hr className="my-3 border-pink-400 border-solid "></hr>
         <section className="letra">
-          <div className="flex items-center justify-center title-container">
-            <h2 className="text-2xl font-rock text-rose-200">Letra:</h2>
+          <div className="flex items-center justify-center pt-4 title-container">
+            <h2 className="text-3xl font-bold lg:text-5xl font-bungee text-rose-200 md:text-5xl">
+              Letra:
+            </h2>
           </div>
-          <div className="flex flex-col py-8 text-sm text-center txtWrapper lg:flex-row justify-evenly lg:text-base ">
+          <div className="flex flex-col py-8 text-sm text-center txtWrapper lg:flex-row justify-evenly lg:text-base md:text-lg">
             <div>
-              <p className="text-pink-400 font-finger">
+              <p className="font-bold text-pink-400 font-poppins">
                 Cruzaste con luz roja, haciendo lo que se te antoja,<br></br>y
                 ahora querés ponerme un collar.<br></br>
                 Yo digo: "¡No me pidas tanto, la carga que levanto<br></br>
@@ -66,7 +68,7 @@ function AsiNo() {
             </div>
 
             <div>
-              <p className="text-pink-400 font-finger">
+              <p className="font-bold text-pink-400 font-poppins ">
                 Así no puedo quererte. ¡Así no puedo!<br></br>
                 Me estoy dejando para seguir tu juego.<br></br>
                 Así no puedo entenderte. ¡Así no puedo!<br></br>

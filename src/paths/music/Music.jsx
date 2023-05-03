@@ -6,9 +6,9 @@ import { Link } from "react-router-dom";
 function Music() {
   return (
     <>
-      <div className="bg-fixed bg-center bg-no-repeat bg-cover background-music min-h-max sm:bg-bgMusic bg-bgMusic2">
+      <div className="bg-fixed bg-center bg-no-repeat bg-cover background-music min-h-max lg:bg-bgMusic bg-bgMusic2">
         <div className="flex items-center justify-center h-20 title-container">
-          <h1 className="flex justify-center text-xl text-white font-rock lg:text-3xl">
+          <h1 className="flex justify-center text-xl text-white font-rock lg:text-3xl md:text-2xl">
             SINGLES
           </h1>
         </div>
@@ -37,7 +37,7 @@ function Music() {
           className="flex items-center justify-center pb-6 return lg:hidden "
           size={30}
         >
-          <div className="text-white rounded-full cursor-pointer lg:p-2 hover:bg-black/20 hover:underline underline-offset-4">
+          <div className="text-white rounded-full cursor-pointer lg:p-2 hover:bg-black/20 hover:underline underline-offset-4 md:py-[7rem]">
             <Link to="/">
               <TiArrowBackOutline size={30} />
             </Link>
