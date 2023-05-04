@@ -33,6 +33,7 @@ module.exports = {
         nuevos2: 'url("../public/imgs/Nuevos_2.JPG")',
         nm1: 'url("../public/imgs/NM_7.jpg")',
         bgNachi: 'url("../public/imgs/Bio_3.jpg")',
+        error: 'url("../public/imgs/Music-bg.JPG")',
       },
     },
   },

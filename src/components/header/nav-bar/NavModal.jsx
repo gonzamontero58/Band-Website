@@ -6,7 +6,7 @@ function NavModal(props) {
     <>
       <div className="flex justify-center h-auto ">
         <ul
-          className="flex flex-col items-center space-y-10 text-4xl text-black transition duration-500 md:space-y-20 md:text-6xl font-finger hover:text-slate-400"
+          className="flex flex-col items-center space-y-10 text-4xl font-bold text-black transition duration-500 md:space-y-20 md:text-6xl font-bungee hover:text-slate-400"
           onClick={props.handleOnClose}
         >
           <Link to="/">

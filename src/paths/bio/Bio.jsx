@@ -6,11 +6,6 @@ import { TiArrowBackOutline } from "react-icons/ti";
 function Bio() {
   return (
     <>
-      {/*       <div className="flex flex-col items-center justify-center min-h-screen bg-fixed bg-center bg-no-repeat bg-cover bg-prlx1">
-        <h1 className="text-xl font-bold text-white lg:text-6xl font-finger">
-          NADA MENOS
-        </h1>
-      </div> */}
       <div className="min-h-[40vh] lg:min-h-screen bg-center bg-no-repeat bg-cover bg-prlx2 clip3 "></div>
       <div className="flex flex-col text-white">
         <p className="px-10 py-10 text-justify lg:px-40 font-roboto md:text-lg">
@@ -93,24 +88,25 @@ function Bio() {
         </h1>
         <p className="px-10 py-10 text-justify lg:px-40 font-poppins md:text-lg">
           Pasado el año 2018, y tras una serie de diferencias con el resto de
-          los integrantes, Gonzalo Montero decide poner fin a la banda para
-          buscar nuevos horizontes con un grupo dedicado exclusivamente a
-          componer y presentar canciones propias. Para eso, se embarcó en primer
-          lugar en crear unos cuantos temas, y una vez terminado el trabajo,
-          comenzó a buscar músicos que lo acompañaran. De esta manera conoció a
-          Lucas Nocetti (bajo) y Roberto Castro (Batería), y tras el regreso de
-          Giancarlo (guitarra), nacieron los Nuevos Amigos.
+          los integrantes, Gonzalo Montero decide poner fin a la continuidad de
+          la banda para buscar nuevos horizontes con un grupo dedicado
+          exclusivamente a componer y presentar canciones propias. Para eso, se
+          embarcó en primer lugar en crear unos cuantos temas, y una vez
+          terminado el trabajo, comenzó a buscar músicos que lo acompañaran. De
+          esta manera conoció a Lucas Nocetti (bajo) y Roberto Castro (Batería),
+          y tras el regreso de Giancarlo (guitarra), nacieron los Nuevos Amigos.
         </p>
       </div>
       <div className="flex items-center justify-center bg-center bg-no-repeat bg-cover h-[17rem] bg-nuevos1 lg:h-96 clip5 lg:bg-fixed"></div>
       <div className="flex flex-col text-white">
         <p className="px-10 py-10 text-justify lg:px-40 font-poppins md:text-lg">
-          Luego de un 2019 dedicado a perfeccionar el setlist de temas propios,
-          Nuevos Amigos se presenta en el bar Tundra junto con Débris el 29 de
-          Febrero de 2020, con una cálida recepción de los presentes. Restaban
-          días para el comienzo de la pandemia en Uruguay. Ese año vuelven a
-          tocar y ensayar contadas veces debido a la emergencia sanitaria, y el
-          grupo se disolvería hacia principios del año 2021
+          Luego de un segundo semestre de 2019 dedicado a perfeccionar el
+          setlist de temas propios, Nuevos Amigos se presenta en el bar Tundra
+          junto con Débris el 29 de Febrero de 2020, con una cálida recepción de
+          los presentes. Restaban días para el comienzo de la pandemia en
+          Uruguay. Ese año vuelven a tocar y ensayar contadas veces debido a la
+          emergencia sanitaria, y el grupo se disolvería hacia principios del
+          año 2021.
         </p>
       </div>
       <div className="flex items-center justify-center bg-center bg-no-repeat bg-cover bg-nuevos2 h-[18rem] lg:h-96 clip6 lg:bg-fixed"></div>
@@ -121,9 +117,9 @@ function Bio() {
         <p className="px-10 py-10 text-justify lg:px-40 font-poppins md:text-lg">
           A mediados de 2021, los integrantes del viejo Overlook vuelven a los
           ensayos para preparar la grabación de una de las canciones compuestas
-          en esa éopca. Es así como de la mano de Tincho López y Agustín Duarte
-          (guitarra y percusiones de Márama respectivamente) graban el primer
-          single, "Así No" y lo lanzan bajo el nombre del nuevo proyecto
+          en esa época. Es así como, de la mano de Tincho López y Agustín Duarte
+          (guitarra y percusiones de Márama respectivamente), graban el primer
+          single ("Así No") y lo lanzan bajo el nombre del nuevo proyecto
           musical: Nada Menos. Sin embargo, en ese momento la banda no tenía una
           formación fija para las presentaciones en vivo. En busca de ese
           objetivo, se da el regreso de Ignacio Montero en la batería, y Gonzalo

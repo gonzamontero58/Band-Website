@@ -9,19 +9,20 @@ import AsiNo from "./paths/music/pages/AsiNo";
 import BT from "./paths/music/pages/BT";
 import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";
+import ErrorPage from "./paths/error/ErrorPage";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
-    /*     errorElement: (
+    errorElement: (
       <>
         <Header />
         <ErrorPage />
         <Footer />
       </>
-    ), */
+    ),
   },
   {
     path: "bio",

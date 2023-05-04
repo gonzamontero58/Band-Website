@@ -38,7 +38,7 @@ function Carrousel(props) {
     setCurrentIndex(slideIndex);
   };
   return (
-    <div className="relative w-full h-auto content-wrapper group ">
+    <div className="relative w-full h-auto pt-10 content-wrapper group ">
       <div
         style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
         className="min-h-[40vh] lg:min-h-screen bg-center bg-cover duration-500"
