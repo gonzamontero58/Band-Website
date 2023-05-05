@@ -18,12 +18,12 @@ function App() {
             Asi No
           </h1>
         </div>
-        <div className="w-full h-auto video-wrapper lg:w-2/4 ">
+        <div className="w-full h-auto lg:px-[25%]  ">
           <YoutubeEmbed embedId="vKXWZ9S1W9o" />
         </div>
         <div className="flex items-center justify-center pt-5">
           <Link to="/music/info-asi-no">
-            <button class="bg-black font-bold font-bungee text-white  py-1 px-2 border-[0.5px] border-white rounded shadow">
+            <button class="bg-black font-bold font-bungee text-white  py-1 px-2 border-[0.5px] hover:bg-white hover:text-black transition-all border-white rounded shadow">
               CLICK PARA MAS INFO!
             </button>
           </Link>
@@ -33,12 +33,12 @@ function App() {
             La Banda Tributo
           </h1>
         </div>
-        <div className="w-full h-auto video-wrapper lg:w-2/4 ">
+        <div className="w-full h-auto lg:px-[25%] ">
           <YoutubeEmbed embedId="bZsNznYuucM" />
         </div>
         <div className="flex items-center justify-center pt-5">
           <Link to="/music/info-la-banda-tributo">
-            <button class="bg-black font-bungee font-bold text-white  py-1 px-2 border-[0.5px] border-white rounded shadow">
+            <button class="bg-black font-bungee font-bold hover:bg-white hover:text-black transition-all  text-white  py-1 px-2 border-[0.5px] border-white rounded shadow">
               CLICK PARA MAS INFO!
             </button>
           </Link>

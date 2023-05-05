@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import App from "./App";
+import Home from "./App";
 import Bio from "./paths/bio/Bio";
 import Music from "./paths/music/Music";
 import Contact from "./paths/contact/Contact";
@@ -11,11 +11,17 @@ import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";
 import ErrorPage from "./paths/error/ErrorPage";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import ScrollToTop from "./components/ScrollToTop";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App />,
+    element: (
+      <>
+        <ScrollToTop />
+        <Home />
+      </>
+    ),
     errorElement: (
       <>
         <Header />
@@ -28,6 +34,7 @@ const router = createBrowserRouter([
     path: "bio",
     element: (
       <>
+        <ScrollToTop />
         <Header />
         <Bio />
         <Footer />
@@ -38,6 +45,7 @@ const router = createBrowserRouter([
     path: "music",
     element: (
       <>
+        <ScrollToTop />
         <Header />
         <Music />
         <Footer />
@@ -48,6 +56,7 @@ const router = createBrowserRouter([
     path: "music/info-asi-no",
     element: (
       <>
+        <ScrollToTop />
         <Header />
         <AsiNo />
         <Footer />
@@ -58,6 +67,7 @@ const router = createBrowserRouter([
     path: "music/info-la-banda-tributo",
     element: (
       <>
+        <ScrollToTop />
         <Header />
         <BT />
         <Footer />
@@ -68,6 +78,7 @@ const router = createBrowserRouter([
     path: "/contacto",
     element: (
       <>
+        <ScrollToTop />
         <Header />
         <Contact />
         <Footer />

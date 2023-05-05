@@ -4,7 +4,7 @@ import SmFt from "./social-media-ft/Sm_ft";
 
 function Footer() {
   return (
-    <div className="w-full h-20 text-white bg-transparent">
+    <div className="w-full h-20 text-white bg-black">
       <hr></hr>
       <SmFt />
       <div className="flex justify-center text-sm md:text-base lg:py-10 font-roboto ">

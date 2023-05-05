@@ -9,6 +9,8 @@ function Carrousel(props) {
     { url: "./imgs/Gallery-6.jpg" },
     { url: "./imgs/Gallery-5.jpg" },
     { url: "./imgs/NM_6.jpg" },
+    { url: "./imgs/NM_4.jpg" },
+    { url: "./imgs/Gianca3.jpg" },
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);

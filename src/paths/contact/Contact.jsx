@@ -1,5 +1,6 @@
 import React from "react";
 import "./contact.css";
+import { Link } from "react-router-dom";
 
 function Contact() {
   return (
@@ -27,12 +28,16 @@ function Contact() {
                 Instagram:
               </h1>
               <div className="flex flex-col items-center justify-center w-auto gap-5">
-                <button class="bg-black font-bungee font-bold text-white  py-1 px-2 border-[0.5px] border-white rounded shadow">
-                  Nada Menos
-                </button>
-                <button class="bg-black font-bungee font-bold text-white  py-1 px-2 border-[0.5px] border-white rounded shadow">
-                  Gonzalo Montero
-                </button>
+                <Link to="https://www.instagram.com/na.da.me.nos/">
+                  <button class="bg-black font-bungee font-bold text-white hover:bg-white hover:text-black transition-all py-1 px-2 border-[0.5px] border-white rounded shadow">
+                    Nada Menos
+                  </button>
+                </Link>
+                <Link to="https://www.instagram.com/gonza.mont3/">
+                  <button class="bg-black font-bungee font-bold text-white hover:bg-white hover:text-black transition-all  py-1 px-2 border-[0.5px] border-white rounded shadow">
+                    Gonzalo Montero
+                  </button>
+                </Link>
               </div>
             </div>
           </div>

@@ -67,21 +67,21 @@ function Bio() {
           (Amarcord, BJ Sala, Francesco Bar, entre otros).
         </p>
       </div>
-      <div className="flex items-center justify-center bg-center bg-no-repeat bg-cover bg-overlook1 h-96 clip4 lg:bg-fixed"></div>
+      <div className="flex items-center justify-center bg-center bg-no-repeat bg-cover bg-overlook1 h-96 clip4 lg:clip0 md:bg-fixed"></div>
       <div className="flex flex-col text-white">
         <p className="px-10 py-10 text-justify lg:px-40 font-poppins md:text-lg">
           Llegado el 2017, Ricardo Ávila se une a la banda reemplazando a
           Ignacio en la batería, y aportando con ímpetu su bagaje de
-          experiencias en bandas anteriores. El cuarteto continúa con sus
-          presentaciones en vivo, llegando a compartir escenario con Rolo Suzacq
-          de invitado en los teclados. Esa presentación recibió un like del
-          mismísimo Geoff Emerick, el legendario Ingeniero de sonido de The
-          Beatles. Es aquí cuando comienzan a surgir las primeras versiones de
-          las canciones propias "Asi No", "La banda tributo" y "Máquina de
-          Decepciones", que serían integradas al repertorio.
+          experiencias en grupos anteriores. El cuarteto continúa con sus shows
+          en vivo, llegando a compartir escenario con Rolo Suzacq de invitado en
+          los teclados. Esa presentación recibió un like del mismísimo Geoff
+          Emerick, el legendario Ingeniero de sonido de The Beatles. Es aquí
+          cuando comienzan a surgir las primeras versiones de las canciones
+          propias "Asi No", "La banda tributo" y "Máquina de Decepciones", que
+          serían integradas al repertorio.
         </p>
       </div>
-      <div className="flex items-center justify-center bg-center bg-no-repeat bg-cover bg-overlook2 h-[17rem] lg:h-96 clip3 lg:bg-fixed"></div>
+      <div className="flex items-center justify-center bg-center bg-no-repeat bg-cover bg-overlook2 h-[17rem] md:h-[30rem] lg:h-96 clip3 lg:bg-fixed"></div>
       <div className="flex flex-col text-white">
         <h1 className="pt-10 text-3xl font-bold text-center font-bungee md:text-5xl">
           Nuevos Amigos
@@ -92,12 +92,15 @@ function Bio() {
           la banda para buscar nuevos horizontes con un grupo dedicado
           exclusivamente a componer y presentar canciones propias. Para eso, se
           embarcó en primer lugar en crear unos cuantos temas, y una vez
-          terminado el trabajo, comenzó a buscar músicos que lo acompañaran. De
-          esta manera conoció a Lucas Nocetti (bajo) y Roberto Castro (Batería),
-          y tras el regreso de Giancarlo (guitarra), nacieron los Nuevos Amigos.
+          terminado el trabajo, comenzó a buscar músicos que lo acompañaran para
+          tocarlos. De esta manera conoció a Lucas Nocetti (bajo) y Roberto
+          Castro (Batería), quienes llenaron de vitalidad el nuevo repertorio.
+          Transcurridos unos ensayos, Giancarlo es invitado a acompañar con su
+          guitarra y decide permanecer en la banda. Así nacieron los Nuevos
+          Amigos.
         </p>
       </div>
-      <div className="flex items-center justify-center bg-center bg-no-repeat bg-cover h-[17rem] bg-nuevos1 lg:h-96 clip5 lg:bg-fixed"></div>
+      <div className="flex items-center justify-center bg-center bg-no-repeat bg-cover h-[17rem] md:h-[30rem] bg-nuevos1 lg:h-96 clip5 lg:bg-fixed"></div>
       <div className="flex flex-col text-white">
         <p className="px-10 py-10 text-justify lg:px-40 font-poppins md:text-lg">
           Luego de un segundo semestre de 2019 dedicado a perfeccionar el
@@ -109,7 +112,10 @@ function Bio() {
           año 2021.
         </p>
       </div>
-      <div className="flex items-center justify-center bg-center bg-no-repeat bg-cover bg-nuevos2 h-[18rem] lg:h-96 clip6 lg:bg-fixed"></div>
+      {/* <div className="flex items-center justify-center bg-center bg-no-repeat bg-cover bg-nuevos2 h-[18rem] lg:h-96 clip6 lg:bg-fixed"></div> */}
+      <div className="h-[18rem] md:h-[27rem] bg-no-repeat bg-cover lg:min-h-screen bg-nuevos2">
+        {" "}
+      </div>
       <div className="flex flex-col text-white">
         <h1 className="pt-10 text-3xl font-bold text-center font-bungee md:text-5xl">
           Nada Menos
@@ -124,8 +130,8 @@ function Bio() {
           formación fija para las presentaciones en vivo. En busca de ese
           objetivo, se da el regreso de Ignacio Montero en la batería, y Gonzalo
           pasa de tocar una de las guitarras a tocar el bajo mientras continúa
-          como voz principal. Giancarlo completa la formación como guitarra
-          solista.
+          como voz principal. Giancarlo completa la formación como única
+          guitarra .
         </p>
       </div>
       <div className="flex items-center justify-center bg-center bg-no-repeat bg-cover bg-nm1 h-[19rem] lg:h-96 clip7"></div>

@@ -5,7 +5,7 @@ function Burger(props) {
   const openModal = setOpenModal(true); */
   return (
     <>
-      <div className="absolute top-7 left-3 md:top-6 md:left-6">
+      <div className="absolute top-[1.85rem] left-[1.5rem] md:top-7 md:left-8">
         <button
           className="rounded lg:hidden focus:outline-none hover:bg-red-900"
           onClick={props.handleOpen}

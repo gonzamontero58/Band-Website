@@ -24,17 +24,17 @@ function Header() {
         }`}
       >
         {/* modal */}
-        <div className="absolute text-black cursor-pointer top-7 left-3 md:top-6 md:left-7">
+        <div className="absolute text-black cursor-pointer top-[1.85rem] left-[1.5rem] md:top-7 md:left-9">
           <GrClose size={21} onClick={handleOnClose} />
         </div>
-        <div className="py-[50%] md:py-[40%]  nav-modal">
+        <div className="py-[50%] md:py-[20%]  nav-modal">
           <NavModal handleOnClose={handleOnClose} />
         </div>
       </div>
       <div className="flex items-center justify-center h-20 text-white bg-transparent lg:w-full lg:flex-row lg:justify-evenly">
         <Burger handleOpen={handleOpen} />
         <Nav />
-        <h1 className="text-4xl font-bold md:font-normal font-bungee md:text-6xl lg:text-7xl lg:pt-0">
+        <h1 className="text-4xl font-bold lg:font-normal font-bungee md:text-6xl lg:text-7xl lg:pt-0">
           NADA MENOS
         </h1>
         <Sm />
