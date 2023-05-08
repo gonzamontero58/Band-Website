@@ -1,6 +1,7 @@
 import React from "react";
 import "./contact.css";
 import { Link } from "react-router-dom";
+import { TiArrowBackOutline } from "react-icons/ti";
 
 function Contact() {
   return (
@@ -11,7 +12,7 @@ function Contact() {
             Comunicate con nosotros!
           </h1>
         </div>
-        <section className="w-full bg-transparent h-[38rem]">
+        <section className="w-full bg-transparent h-[34rem] lg:h-[38rem]">
           <div className="bg-black h-[12.6rem] clip7">
             <div className="flex flex-col text-white">
               <h1 className="pt-10 text-3xl font-bold text-center font-bungee md:text-5xl">
@@ -43,6 +44,16 @@ function Contact() {
           </div>
           <div className="bg-transparent h-[12.6rem] clip7"></div>
         </section>
+        <div
+          className="flex items-center justify-center pb-6 return lg:hidden "
+          size={30}
+        >
+          <div className="text-white rounded-full cursor-pointer hover:bg-black/20 ">
+            <Link to="/music">
+              <TiArrowBackOutline size={30} />
+            </Link>
+          </div>
+        </div>
       </div>
     </div>
   );

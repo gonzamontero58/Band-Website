@@ -9,16 +9,15 @@ function BT() {
         <div className="flex justify-center py-8 text-4xl font-bold text-orange-50 md:text-5xl font-bungee lg:text-6xl lg:pb-16 lg:pt-8 underline-offset-8">
           <h1>LA BANDA TRIBUTO</h1>
         </div>
-
-        <div className="relative hidden return lg:flex" size={30}>
-          <div className="absolute rounded-full cursor-pointer text-orange-50 right-5 bottom-10 lg:p-2 hover:bg-black/20 hover:underline underline-offset-4">
-            <Link to="/music">
+        <Link to="/music">
+          <div className="relative hidden return lg:flex" size={30}>
+            <div className="absolute rounded-full cursor-pointer text-orange-50 right-5 bottom-10 lg:p-2 hover:bg-black/20 hover:underline underline-offset-4">
               <TiArrowBackOutline size={30} />
-            </Link>
-            <h1 className="text-orange-50 font-finger ">BACK</h1>
-          </div>
-        </div>
 
+              <h1 className="text-orange-50 font-finger ">BACK</h1>
+            </div>
+          </div>
+        </Link>
         <section className="flex flex-col items-center pb-8 text-sm text-center vid-info lg:flex-row justify-evenly lg:py-8 lg:text-base">
           <div className="w-full h-auto video-wrapper lg:w-2/4 ">
             <YoutubeEmbed embedId="bZsNznYuucM" />
