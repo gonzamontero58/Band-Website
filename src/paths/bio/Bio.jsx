@@ -14,7 +14,7 @@ function Bio() {
           Giancarlo Fiordelmondo (guitarra) e Ignacio Montero (batería) integran
           Nada Menos, que surge como un proyecto para plasmar esas canciones
           compuestas que nunca salieron a la luz más allá de presentaciones en
-          vivo. Tras la grabación de sus primeros dos singles, "Asi No" y "La
+          vivo. Tras la publicación de sus primeros dos singles, "Asi No" y "La
           Banda Tributo" (con la participación de Gonzalo Ramos y Ricardo
           Ávila), el trío se encuentra trabajando en la grabación de su primer
           EP.
@@ -60,7 +60,7 @@ function Bio() {
         <p className="px-10 py-10 text-justify lg:px-40 font-poppins md:text-lg">
           A fines del año 2016, Gonzalo Montero, Giancarlo Fiordelmondo, Ignacio
           Montero y Gonzalo Ramos forman Overlook, una banda cuyo repertorio
-          estaba basado en covers de bandas referentes para ellos como lo eran
+          estaba basado en covers de grupos referentes para ellos como lo eran
           The Strokes y Arctic Monkeys. Con una selección de canciones lo
           bastante extensa y explosiva como para abarcar un show, deciden salir
           a tocar por distintas salas y bares existentes en ese momento
@@ -72,13 +72,13 @@ function Bio() {
         <p className="px-10 py-10 text-justify lg:px-40 font-poppins md:text-lg">
           Llegado el 2017, Ricardo Ávila se une a la banda reemplazando a
           Ignacio en la batería, y aportando con ímpetu su bagaje de
-          experiencias en grupos anteriores. El cuarteto continúa con sus shows
-          en vivo, llegando a compartir escenario con Rolo Suzacq de invitado en
-          los teclados. Esa presentación recibió un like del mismísimo Geoff
-          Emerick, el legendario Ingeniero de sonido de The Beatles. Es aquí
-          cuando comienzan a surgir las primeras versiones de las canciones
-          propias "Asi No", "La banda tributo" y "Máquina de Decepciones", que
-          serían integradas al repertorio.
+          experiencias en conjuntos anteriores. El cuarteto continúa con sus
+          shows en vivo, llegando a compartir escenario con Rolo Suzacq de
+          invitado en los teclados. Esa presentación recibió un like del
+          mismísimo Geoff Emerick, el legendario Ingeniero de sonido de The
+          Beatles. Es aquí cuando comienzan a surgir las primeras versiones de
+          las canciones propias "Asi No", "La banda tributo" y "Máquina de
+          Decepciones", que serían integradas al repertorio.
         </p>
       </div>
       <div className="flex items-center justify-center bg-center bg-no-repeat bg-cover bg-overlook2 h-[17rem] md:h-[30rem] lg:h-96 clip3 lg:bg-fixed"></div>
@@ -124,7 +124,7 @@ function Bio() {
           A mediados de 2021, los integrantes del viejo Overlook vuelven a los
           ensayos para preparar la grabación de una de las canciones compuestas
           en esa época. Es así como, de la mano de Tincho López y Agustín Duarte
-          (guitarra y percusiones de Márama respectivamente), graban el primer
+          (guitarra y percusiones de Márama respectivamente), publican el primer
           single ("Así No") y lo lanzan bajo el nombre del nuevo proyecto
           musical: Nada Menos. Sin embargo, en ese momento la banda no tenía una
           formación fija para las presentaciones en vivo. En busca de ese
