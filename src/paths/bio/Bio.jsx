@@ -21,7 +21,7 @@ function Bio() {
         </p>
       </div>
 
-      <div className="flex items-center justify-center bg-fixed bg-center bg-no-repeat bg-cover bg-prlx3 h-96 clip4">
+      <div className="flex items-center justify-center bg-center bg-no-repeat bg-cover lg:bg-fixed bg-prlx3 h-[20rem] lg:h-96 clip4">
         <h1 className="text-lg font-bold text-white md:text-4xl lg:text-6xl font-bungee ">
           INTEGRANTES:
         </h1>
@@ -32,23 +32,23 @@ function Bio() {
           GONZALO MONTERO
         </h2>
       </div>
-      <div className="min-h-screen bg-fixed bg-center bg-no-repeat bg-cover bg-bgGonza clip5"></div>
+      <div className="min-h-screen bg-center bg-no-repeat bg-cover lg:bg-fixed bg-bgGonza clip5"></div>
 
       <div className="flex justify-center text-white">
         <h2 className="p-10 text-sm font-bold md:text-2xl lg:text-4xl font-rock">
           GIANCARLO FIORDELMONDO
         </h2>
       </div>
-      <div className="min-h-screen bg-fixed bg-center bg-no-repeat bg-cover bg-bgGianca clip6"></div>
+      <div className="min-h-screen bg-center bg-no-repeat bg-cover lg:bg-fixed bg-bgGianca clip6"></div>
 
       <div className="flex justify-center text-white">
         <h2 className="p-10 text-sm font-bold md:text-2xl lg:text-4xl font-rock">
           IGNACIO MONTERO
         </h2>
       </div>
-      <div className="min-h-screen bg-fixed bg-center bg-no-repeat bg-cover bg-prlx6 lg:bg-bgNachi lg:prueba3"></div>
+      <div className="min-h-screen bg-center bg-no-repeat bg-cover lg:bg-fixed bg-prlx6 lg:bg-bgNachi lg:prueba3"></div>
 
-      <div className="flex items-center justify-center bg-fixed bg-center bg-no-repeat bg-cover bg-prlx7 h-96 ">
+      <div className="flex items-center justify-center bg-center bg-no-repeat bg-cover lg:bg-fixed bg-prlx7 h-96 ">
         <h1 className="text-lg font-bold text-white md:text-4xl lg:text-6xl font-bungee ">
           HISTORIA:
         </h1>
