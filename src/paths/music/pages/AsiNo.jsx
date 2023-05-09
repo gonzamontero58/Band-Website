@@ -6,7 +6,7 @@ function AsiNo() {
   return (
     <>
       <div className="bg-gradient-to-br from-neutral-900 to-pink-900">
-        <div className="flex justify-center py-8 text-4xl font-bold text-pink-200 md:text-5xl lg:text-6xl font-bungee lg:pb-16 lg:pt-8 underline-offset-8">
+        <div className="flex justify-center py-8 text-4xl text-pink-200 md:text-5xl lg:text-6xl font-bungee lg:pb-16 lg:pt-8 underline-offset-8">
           <h1>ASI NO</h1>
         </div>
         <Link to="/music">
@@ -22,7 +22,7 @@ function AsiNo() {
             <YoutubeEmbed embedId="vKXWZ9S1W9o" />
           </div>
           <div className="flex justify-center w-full h-auto pt-8 info-wrapper lg:w-2/4 flex-column lg:pt-0">
-            <p className="font-bold text-center text-pink-300 font-poppins lg:text-left md:text-lg ">
+            <p className="text-center text-pink-300  font-poppins lg:text-left md:text-lg">
               Gonzalo Montero: Voz y Guitarra<br></br>
               Giancarlo Fiordelmondo: Guitarra<br></br>
               Gonzalo Ramos: Bajo<br></br>
@@ -48,7 +48,7 @@ function AsiNo() {
           </div>
           <div className="flex flex-col py-8 text-sm text-center txtWrapper lg:flex-row justify-evenly lg:text-base md:text-lg">
             <div>
-              <p className="font-bold text-pink-400 font-poppins">
+              <p className="text-pink-400  font-poppins">
                 Cruzaste con luz roja, haciendo lo que se te antoja,<br></br>y
                 ahora querés ponerme un collar.<br></br>
                 Yo digo: "¡No me pidas tanto, la carga que levanto<br></br>
@@ -68,7 +68,7 @@ function AsiNo() {
             </div>
 
             <div>
-              <p className="font-bold text-pink-400 font-poppins ">
+              <p className="text-pink-400  font-poppins">
                 Así no puedo quererte. ¡Así no puedo!<br></br>
                 Me estoy dejando para seguir tu juego.<br></br>
                 Así no puedo entenderte. ¡Así no puedo!<br></br>
