@@ -113,7 +113,7 @@ function Bio() {
         </p>
       </div>
       {/* <div className="flex items-center justify-center bg-center bg-no-repeat bg-cover bg-nuevos2 h-[18rem] lg:h-96 clip6 lg:bg-fixed"></div> */}
-      <div className="h-[18rem] md:h-[27rem] bg-no-repeat bg-cover lg:min-h-screen bg-nuevos2">
+      <div className="h-[16rem] md:h-[27rem] bg-no-repeat bg-cover lg:min-h-screen bg-nuevos2">
         {" "}
       </div>
       <div className="flex flex-col text-white">

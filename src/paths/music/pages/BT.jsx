@@ -6,7 +6,7 @@ function BT() {
   return (
     <>
       <div className="bg-gradient-to-br from-[#404f4a] to-[#829b93]">
-        <div className="flex justify-center py-8 text-4xl font-bold text-orange-50 md:text-5xl font-bungee lg:text-6xl lg:pb-16 lg:pt-8 underline-offset-8">
+        <div className="flex justify-center py-8 text-4xl text-orange-50 md:text-5xl font-bungee lg:text-6xl lg:pb-16 lg:pt-8 underline-offset-8">
           <h1>LA BANDA TRIBUTO</h1>
         </div>
         <Link to="/music">
@@ -23,7 +23,7 @@ function BT() {
             <YoutubeEmbed embedId="bZsNznYuucM" />
           </div>
           <div className="flex justify-center w-full h-auto pt-8 info-wrapper lg:w-2/4 flex-column lg:pt-0">
-            <p className="font-bold text-center text-orange-50 font-poppins lg:text-left md:text-lg">
+            <p className="text-center text-orange-50 font-poppins lg:text-left md:text-lg">
               Gonzalo Montero: Voz y Guitarra<br></br>
               Giancarlo Fiordelmondo: Guitarra<br></br>
               Gonzalo Ramos: Bajo<br></br>
@@ -45,13 +45,13 @@ function BT() {
         <hr className="my-3 border-solid border-orange-50 "></hr>
         <section className="letra">
           <div className="flex items-center justify-center pt-4 title-container">
-            <h2 className="text-3xl font-bold text-orange-50 md:text-5xl lg:text-5xl font-bungee">
+            <h2 className="text-3xl text-orange-50 md:text-5xl lg:text-5xl font-bungee">
               Letra:
             </h2>
           </div>
           <div className="flex flex-col py-8 text-sm text-center txtWrapper lg:flex-row justify-evenly lg:text-base md:text-lg">
             <div>
-              <p className="font-bold text-orange-50 font-poppins">
+              <p className=" text-orange-50 font-poppins">
                 Todo está listo, la Banda Tributo va a comenzar a tocar.
                 <br></br>
                 Originalidad creo que les falta pero se gozan igual.<br></br>
@@ -67,7 +67,7 @@ function BT() {
             </div>
 
             <div>
-              <p className="font-bold text-white font-poppins">
+              <p className="text-white  font-poppins">
                 Los van a ver pasar inadvertidos por la gala de la eternidad.
                 <br></br>
                 ¿A quién van a engañar? No están acá por diversión sino por
