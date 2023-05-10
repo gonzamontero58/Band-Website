@@ -7,7 +7,7 @@ function Music() {
   return (
     <>
       <div className="md:h-[58.5rem] lg:h-[41.5rem]">
-        <div className="bg-fixed bg-center bg-no-repeat bg-cover background-music min-h-max lg:bg-bgMusic bg-bgMusic2">
+        <div className="bg-center bg-no-repeat bg-cover lg:bg-fixed min-h-max lg:bg-bgMusic bg-bgMusic2">
           <div className="flex items-center justify-center h-20 ">
             <h1 className="flex justify-center text-xl text-white lg:text-3xl md:text-2xl font-rock">
               SINGLES
