@@ -6,7 +6,7 @@ import { TiArrowBackOutline } from "react-icons/ti";
 function Contact() {
   return (
     <div>
-      <div className="bg-fixed bg-center bg-no-repeat bg-cover min-h-max bg-bgMusic2">
+      <div className="bg-center bg-no-repeat bg-cover lg:bg-fixed min-h-max bg-bgMusic2">
         <div className="flex items-center justify-center h-20 title-container">
           <h1 className="flex justify-center text-xl text-white font-rock lg:text-3xl md:text-2xl">
             Comunicate con nosotros!
