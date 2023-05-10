@@ -4,11 +4,15 @@ import Footer from "./components/footer/Footer";
 import Carousel from "./components/home/Carousel";
 import YoutubeEmbed from "./components/music/YouTubeEmbed";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet";
 
 function App() {
   return (
     <>
       <Header />
+      <Helmet>
+        <title>Inicio - Nada Menos</title>
+      </Helmet>
       <section>
         <div className="background">
           <div className="flex items-center justify-center bg-center bg-no-repeat bg-cover lg:min-h-screen bg-bgMain lg:bg-fixed min-h-[78vh]"></div>

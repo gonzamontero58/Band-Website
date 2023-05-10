@@ -2,10 +2,14 @@ import React from "react";
 import "./music.css";
 import { TiArrowBackOutline } from "react-icons/ti";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet";
 
 function Music() {
   return (
     <>
+      <Helmet>
+        <title>Musica - Nada Menos</title>
+      </Helmet>
       <div className="md:h-[58.5rem] lg:h-[41.5rem]">
         <div className="bg-center bg-no-repeat bg-cover lg:bg-fixed min-h-max lg:bg-bgMusic bg-bgMusic2">
           <div className="flex items-center justify-center h-20 ">

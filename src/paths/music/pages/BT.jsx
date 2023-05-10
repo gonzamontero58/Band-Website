@@ -2,9 +2,13 @@ import React from "react";
 import { TiArrowBackOutline } from "react-icons/ti";
 import YoutubeEmbed from "../../../components/music/YouTubeEmbed";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet";
 function BT() {
   return (
     <>
+      <Helmet>
+        <title>La Banda Tributo - Nada Menos</title>
+      </Helmet>
       <div className="bg-gradient-to-br from-[#404f4a] to-[#829b93]">
         <div className="flex justify-center py-8 text-4xl text-orange-50 md:text-5xl font-bungee lg:text-6xl lg:pb-16 lg:pt-8 underline-offset-8">
           <h1>LA BANDA TRIBUTO</h1>
@@ -67,7 +71,7 @@ function BT() {
             </div>
 
             <div>
-              <p className="text-white  font-poppins">
+              <p className="text-white font-poppins">
                 Los van a ver pasar inadvertidos por la gala de la eternidad.
                 <br></br>
                 ¿A quién van a engañar? No están acá por diversión sino por

@@ -2,10 +2,14 @@ import React from "react";
 import "./contact.css";
 import { Link } from "react-router-dom";
 import { TiArrowBackOutline } from "react-icons/ti";
+import { Helmet } from "react-helmet";
 
 function Contact() {
   return (
     <div>
+      <Helmet>
+        <title>Contacto - Nada Menos</title>
+      </Helmet>
       <div className="bg-center bg-no-repeat bg-cover lg:bg-fixed min-h-max bg-bgMusic2">
         <div className="flex items-center justify-center h-20 title-container">
           <h1 className="flex justify-center text-xl text-white font-rock lg:text-3xl md:text-2xl">

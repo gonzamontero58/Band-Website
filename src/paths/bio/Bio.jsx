@@ -2,10 +2,14 @@ import React from "react";
 import "./bio.css";
 import { Link } from "react-router-dom";
 import { TiArrowBackOutline } from "react-icons/ti";
+import { Helmet } from "react-helmet";
 
 function Bio() {
   return (
     <>
+      <Helmet>
+        <title>BIO - Nada Menos</title>
+      </Helmet>
       <div className="min-h-[40vh] lg:min-h-screen bg-center bg-no-repeat bg-cover bg-prlx2 clip3 "></div>
       <div className="flex flex-col text-white">
         <p className="px-10 py-10 text-justify lg:px-40 font-roboto md:text-lg">
