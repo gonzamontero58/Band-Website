@@ -34,6 +34,7 @@ module.exports = {
         nm1: 'url("../public/imgs/NM_7.jpg")',
         bgNachi: 'url("../public/imgs/Bio_3.jpg")',
         error: 'url("../public/imgs/Music-bg.JPG")',
+        afiche1: 'url("../public/imgs/Afiche.jpg")',
       },
     },
   },
